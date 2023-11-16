@@ -50,4 +50,15 @@
     background-color: #45a049;
     border: 1px solid #45a049;
   }
-  
+  @media (max-width:500px){
+    .searchcontainer {
+      height: 28rem;
+    }
+    .Button {
+      width: 18rem;
+      font-size: small;
+    }
+    input {
+      width: 30rem!important;
+    }
+  }

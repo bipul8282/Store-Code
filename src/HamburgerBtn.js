@@ -6,6 +6,7 @@ import List from '@mui/material/List';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RxCross2 } from 'react-icons/rx';
 import style from './HamburgerBtn.module.css';
+import { Link } from 'react-router-dom';
 
 export default function HamburgerBtn() {
   const [state, setState] = React.useState({
@@ -48,12 +49,12 @@ export default function HamburgerBtn() {
             <RxCross2 />
           </button>
         </h1>
-        <p>Home</p>
-        <p>Store</p>
-        <p>Login</p>
-        <p>Register</p>
-        <p>Contact</p>
-        <p>About</p>
+        <Link to={"/"}><p>Home</p></Link>
+       <Link to={"/Store"}><p>Store</p></Link>
+       <Link to={"/Login"}><p>Login</p></Link>
+       <Link to={"/Register"}><p>Register</p></Link>
+       <Link to={"/Contact"}><p>Contact</p></Link>
+       <Link to={"/About"}><p>About</p></Link>
       </List>
     </Box>
   );

@@ -53,10 +53,19 @@ display:none ;
 
 
 @media (max-width: 500px) {
+  .main {
+    width: 100vw;
+    overflow: hidden;
+   gap: 7rem;
+  }
   .main ul {
     display: none;
   }
   .HamburgerBtn{
     display: unset!important;
+    /* margin-right: 2rem; */
   }
+.main img{
+  /* margin-left: 8rem; */
+}
 }
