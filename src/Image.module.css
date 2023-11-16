@@ -1,14 +1,15 @@
-/* 
+/* Image.module.css */
 
 .imageContainer {
-    max-width: 100%;
-    overflow: hidden;
-  }
-  
-  .image {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-   */
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 150px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

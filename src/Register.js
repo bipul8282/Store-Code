@@ -39,7 +39,7 @@ function Register() {
    <div><NavBar/></div>
     <div className="register-container">
  
-      <h2>Sign Up</h2>
+      <h2>Register</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
@@ -67,6 +67,9 @@ function Register() {
         </label>
 
         <button type="submit">Sign Up</button>
+<h3>Or Sign in Using</h3>
+<h5>SIGN IN</h5>
+
       </form>
     </div>
     <Footer/>

@@ -48,7 +48,7 @@ export default function HamburgerBtn() {
             <RxCross2 />
           </button>
         </h1>
-        <p>Home </p>
+        <p>Home</p>
         <p>Store</p>
         <p>Login</p>
         <p>Register</p>

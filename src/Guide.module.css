@@ -1,39 +1,51 @@
 /* In Guide.module.css */
 
 .Guide {
-    max-width: 800px;
+    max-width: 100rem;
     margin: auto;
     padding: 20px;
+    background-color: #f1ecec;
   }
   
   .Guide1,
   .Guide2,
   .Guide3 {
-    margin-top: 20px;
+    margin-top: 40px;
+    background-color: white;
+    max-width:70rem ;
+    margin-left: 150px;
+    height: 10rem;
+    
+  
   }
   
-  .Guide1 i,
+  /* .Guide1 i,
   .Guide2 i,
   .Guide3 i {
     margin-bottom: 10px;
   }
-  
+   */
   .Guide h1,
   .Guide2 h1,
   .Guide3 h1 {
-    color: #333;
+    color: black;
+    font-size: 2rem;
+    margin-top: 20px;
   }
   
   .Guide h2,
   .Guide2 h2,
   .Guide3 h2 {
-    color: #333;
+    color: black;
+    font-size: 2rem;
   }
   
   .Guide p,
   .Guide2 p,
   .Guide3 p {
-    color: #666;
+    color: black;
+   margin-left: 350px;
+   
   }
   
   .Guide4 {
@@ -41,13 +53,13 @@
   }
   
   .Guide4 button {
-    background-color: DarkPink;
+    background-color: pink;
     color: #fff;
-    padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    width: 9rem;
+    margin-left: 40rem;
+    margin-top: -40px;
   }
   
   .Guide4 button:hover {

@@ -1,0 +1,26 @@
+.StoreCode {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .StoreCode h1 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .StoreCode button {
+    background-color:green;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 8rem;
+    margin-right: 70px;
+  }
+  

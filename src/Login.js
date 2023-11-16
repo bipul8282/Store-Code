@@ -53,7 +53,9 @@ export default function Login() {
                 Login
               </button>
             </div>
-           <div className={style.Login1}><p>or Sign Up Using</p>
+           <div className={style.Login1}>
+            
+           <span>or Sign Up Using</span> <br></br>
            <span>Sign Up</span>
            </div>
           </form>

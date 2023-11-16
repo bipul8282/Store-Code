@@ -13,11 +13,11 @@ export default function NavBar() {
   return (
     <div className={style.main}>
        <img
-  src="https://i.pinimg.com/736x/87/a1/12/87a1122a61a8cdde29f44a12c3a9992f.jpg"
-  style={{ height: '50px', width: 'auto' }} // Adjust the height value as needed
+  src="https://storecode.in/images/logo-nav.png"
+  style={{ height: '50px', width: 'auto'}} // Adjust the height value as needed
   alt="Description"
 />
-<p>StoreCode</p>
+<h1>StoreCode</h1>
 
           <div className={style.HamburgerBtn}>
         <HamburgerBtn/>
@@ -34,7 +34,8 @@ export default function NavBar() {
             style={{
               textDecoration: 'none',
               color: 'black',
-              backgroundColor: activeLink === 'home' ? 'orange' : '',
+              backgroundColor: ' ' ,
+              
             }}
             onClick={() => handleNavLinkClick('home')}
           >
@@ -47,7 +48,7 @@ export default function NavBar() {
             to="/Store"
             style={{
               textDecoration: 'none',
-              color: 'black',
+              color: 'white',
               backgroundColor: activeLink === 'store' ? 'orange' : '',
             }}
             onClick={() => handleNavLinkClick('store')}
@@ -60,7 +61,7 @@ export default function NavBar() {
             to="/Login"
             style={{
               textDecoration: 'none',
-              color: 'black',
+              color: 'white',
               backgroundColor: activeLink === 'login' ? 'orange' : '',
             }}
             onClick={() => handleNavLinkClick('login')}
@@ -73,7 +74,7 @@ export default function NavBar() {
             to="/Register"
             style={{
               textDecoration: 'none',
-              color: 'black',
+              color: 'white',
               backgroundColor: activeLink === 'login' ? 'orange' : '',
             }}
             onClick={() => handleNavLinkClick('login')}
@@ -86,7 +87,7 @@ export default function NavBar() {
             to="/Contact"
             style={{
               textDecoration: 'none',
-              color: 'black',
+              color: 'white',
               backgroundColor: activeLink === 'login' ? 'orange' : '',
             }}
             onClick={() => handleNavLinkClick('login')}
@@ -100,7 +101,7 @@ export default function NavBar() {
             to="/About"
             style={{
               textDecoration: 'none',
-              color: 'black',
+              color: 'white',
               backgroundColor: activeLink === 'blog' ? 'orange' : '',
             }}
             onClick={() => handleNavLinkClick('blog')}
@@ -110,5 +111,9 @@ export default function NavBar() {
         </p>
       </ul>
     </div>
+
+
+
+
   );
 }

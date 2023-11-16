@@ -1,18 +1,21 @@
-/* In Register.css */
+/* Register.css */
 
 .register-container {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
-    padding: 20px;
+    padding: 65px 95px 45px 55px;
     border: 1px solid #ccc;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    margin-top: 30px;
+    color: black;
   }
   
   h2 {
     text-align: center;
-    color: #333;
+    color: black;
+    font-size: 3rem;
   }
   
   form {
@@ -32,19 +35,28 @@
   }
   
   button {
-    background-color: #4caf50;
     color: #fff;
     padding: 10px;
     border: none;
     border-radius: 15px;
-    width: 20rem;
+    width: 100%;
     cursor: pointer;
     font-size: 20px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,133,168,0) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(221, 62, 160) 0%, rgb(255, 77, 0) 100%);
+    margin-top: 15px;
   }
   
-  button:hover {
-    background-color: #45a049;
+  h3 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: gray;
   }
   
+  h5 {
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+  }

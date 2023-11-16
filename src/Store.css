@@ -1,20 +1,43 @@
+/* AnotherStore.css */
 
-.Btn{
+.AnotherBtn1 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: 17%;
-    border: 1px solid black;
-    height: 250px;
-    width: 60rem;
-    border-radius: 100px;
-    float: right;
-    margin-right: 25rem;
-    gap: 2rem;
-    
 }
-h4{
-    /* margin: 20px ; */
-    margin-top:12rem;
-    float: left;
+
+.AnotherBtn {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 12%;
+    width: 35rem;
+    height: 15rem;
+}
+
+.AnotherBtn Avatar {
+    margin-right: 1rem;
+   
+ 
+}
+
+.AnotherBtn h1 {
+    color: black; /* Adjust the color as needed */
+    margin-right: 1rem;
+    font-size: large;
+    margin-left: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+   
+}
+
+.AnotherBtn h4 {
+    color: black; /* Adjust the color as needed */
+    margin: 20px;
+    font-weight: 300;
+    
 }

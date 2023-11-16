@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faShoppingCart, faLock } from '@fortawesome/free-solid-svg-icons';
-// import { faMoney } from '@fortawesome/free-solid-svg-icons';
+
 
 import style from './Guide.module.css';
 
@@ -33,7 +31,7 @@ function Guide() {
         </div>
         <div className={style.Guide4}>
           <h1>The Exclusive Partnership Program</h1>
-          <button style={{ backgroundColor: 'DarkPink' }} onClick={toggleStories}>
+          <button style={{ backgroundColor: ' pink' }} onClick={toggleStories}>
             {showStories ? 'Close' : 'View More'}
           </button>
           {showStories && (

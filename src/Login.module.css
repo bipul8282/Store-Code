@@ -1,102 +1,58 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-image: url("https://wallpapers.com/images/hd/light-colorful-background-lgw7ddo058vsb30p.jpg");
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh; */
-    
-  }
-  
-  .Btn {
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 600px;
-    width: 45rem;
-    gap: 10rem;
-    border-radius: 80px;
-    margin-left: 28rem;
-    overflow: hidden;
-    background-color: #fff;
-    margin-bottom:12rem ;
-  }
-  .Btn1{
+.Btn {
   display: flex;
-  margin-bottom: 15rem;
-  }
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.Btn h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Btn form {
+  width: 100%;
+}
+
+.Btn label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.Btn input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Login {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 15rem;
+}
+
+.Login1 {
+  margin-top: 20px;
+  text-align: center;  }
+
+
+
+.Login1 span {
+  color: black;
+  cursor: pointer;
   
-  
-  .container {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    width: 80%;
-    max-width: 400px;
-  }
-  
-  h2 {
-    text-align: center;
-    color: #2b2b2b; /* Dark gray text color */
-    margin-top: 70px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  label {
-    margin-bottom: 8px;
-    color: rgb(14, 193, 178); /* Red text color for labels */
-  }
-  
-  input {
-    margin-bottom: 40px;
-    border: 1px solid #ccc;
-    font-size: 20px;
-    height: 3rem;
-    width: 20rem;
-    padding: 10px;
-    border-radius: 10px;
-    
-  }
-  .Login1{
-    margin-top: 30px;
-   
-  }
-  
-  .Login {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,133,168,0) 35%, rgba(0,212,255,1) 100%);
-    color: #fff;
-    padding: 14px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    height: 3rem;
-    width: 20rem;
-    border-radius: 100px;
-  }
-  
-  .Login:hover {
-    background-color: #45a049;
-  }
-  
-  .forgot-password-link {
-    color: #007bff;
-    cursor: pointer;
-    text-align: center;
-    float: right;
-    margin-bottom: 3rem;
-  }
-  
-  .forgot-password-link:hover {
-    text-decoration: underline;
-  }
-  
+
+}

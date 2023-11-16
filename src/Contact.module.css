@@ -1,30 +1,45 @@
 /* In Contact.module.css */
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 80rem;
+    margin: auto;
+    padding: 65px 95px 45px 55px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 30px;
+    color: black;
     
   }
+  
+  h1 {
+    margin-top: 0; 
+    text-align: center;
+  }
+
+p{
+  margin:20px;
+    color: black;
+}
   
   .buttonContainer {
     display: flex;
     justify-content: space-around;
   }
   
-  .contact {
-    border: 1px solid black;
-    background-color: #af4c74;
-    color: #ffffff;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 40px;
-    cursor: pointer;
-    height: 70px;
-    width: 200px;
+ 
+.buttonContainer {
+    text-align: center;
+    display: block; 
+   
+   
   }
   
-  .contact:hover {
-    background-color: #45a049;
+  .contact {
+    display: block; 
+    margin-bottom: 10px;
+    width: 70rem;
+    border-radius: 10px;
   }
   
