@@ -30,25 +30,28 @@ export default function HamburgerBtn() {
       role="presentation"
     >
       <List
-        className={style.opt}
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          paddingLeft: '20px',
-          paddingRight: '20px',
-          paddingTop: '30px',
-          height: '100vh',
-        }}
-      >
-        <h1>
-          Menu
+  className={style.opt}
+  style={{
+    display: 'flex',
+    flexDirection: 'column',
+    paddingLeft: '20px',
+    paddingRight: '20px',
+    paddingTop: '30px',
+    height: '100vh',
+    backgroundColor: 'rgb(213, 5, 109)',
+  }}
+>
+
+
+       
+          
           <button
             className={style.closeButton}
             onClick={toggleDrawer(anchor, false)}
           >
             <RxCross2 />
           </button>
-        </h1>
+       
         <Link to={"/"}><p>Home</p></Link>
        <Link to={"/Store"}><p>Store</p></Link>
        <Link to={"/Login"}><p>Login</p></Link>
