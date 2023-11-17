@@ -16,17 +16,17 @@ function Guide() {
       <div className={style.Guide}>
         <h1>Guide Your Followers</h1>
         <div className={style.Guide1}>
-          <p><LocalAtmSharpIcon style={{ fontSize: '48px', color: 'DarkPink' }} /></p>
+          <h3><LocalAtmSharpIcon style={{ fontSize: '48px', color: 'DarkPink' }} /></h3>
           <h2>Earn Rewards</h2>
           <p>Earn from every purchase made through your unique codes.</p>
         </div>
         <div className={style.Guide2}>
-        <p><ShoppingCartRoundedIcon style={{ fontSize: '48px', color: 'DarkPink' }} /></p>
+        <h3><ShoppingCartRoundedIcon style={{ fontSize: '48px', color: 'DarkPink' }} /></h3>
           <h2>Your Personal Store</h2>
           <p>Have a personal store powered by your influence.</p>
         </div>
         <div className={style.Guide3}>
-          <p><LockIcon style={{ fontSize: '48px', color: 'DarkPink' }} /></p>
+          <h3><LockIcon style={{ fontSize: '48px', color: 'DarkPink' }} /></h3>
           <h2>Exclusive Codes</h2>
           <p>Keep your recommended sites a secret under your unique code.</p>
         </div>
